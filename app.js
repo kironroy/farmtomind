@@ -8,14 +8,9 @@ const scrollFunction = () =>
     : (goToTopButton.style.display = 'none');
 
 function topFunction() {
-  const scrollTop = document.body.scrollTop = 0;
-  const scrollElemTop = document.documentElement.scrollTop = 0;
+  const scrollTop = (document.body.scrollTop = 0);
+  const scrollElemTop = (document.documentElement.scrollTop = 0);
 }
 
 topFunction();
 window.onscroll = () => scrollFunction();
-
-
-
-
-
