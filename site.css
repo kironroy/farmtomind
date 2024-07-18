@@ -1,11 +1,11 @@
 :root {
-  --main-color: #2b3f35;
+  --main-color: #5c4121;
   --p-color: #2e2e2e;
-  --creme-color: #ffecc2;
-  --btn-color: #191351;
+  --creme-color: #ffffff;
+  --btn-color: #aa7e38;
   --link-color: #0000EE;
   --link-hover: #efef01;
-  --link-visited: #551A8B;
+  --link-visited: #c1c439;
   --box-shadow: 0 8px 9px -9px #090909cc;
 }
 
@@ -44,7 +44,7 @@ hr {
 }
 
 .hero-image {
-  background-image: url("hero_img.webp");
+  background-image: url("table.jpg");
   height: 40%;
   opacity: 90%;
   background-position: center;
